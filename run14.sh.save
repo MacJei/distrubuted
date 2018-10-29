@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+node=$(hdfs fsck -blockId $1 | grep 'Block replica on datanode/rack:' | head -1 | awk '{print $5}' | rev | cut -c 9- | rev)
+#echo $node
+block='find /dfs -name $1'
+echo $block
+#sudo -u hdfsuser ssh $node
+#find /dfs -name $block

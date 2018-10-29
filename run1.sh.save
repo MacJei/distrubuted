@@ -1,0 +1,4 @@
+#cut -b 1-20 .website
+cat .website
+rm .website
+

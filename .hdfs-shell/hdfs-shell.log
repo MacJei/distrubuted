@@ -1,0 +1,10 @@
+// HDFS-shell CLI mipt-client.atp-fivt.org 1.2.0.RELEASE log opened at 2018-09-29 01:24:33
+exit
+// HDFS-shell CLI mipt-client.atp-fivt.org 1.2.0.RELEASE log closed at 2018-09-29 01:25:03
+// HDFS-shell CLI mipt-client.atp-fivt.org 1.2.0.RELEASE log opened at 2018-09-29 01:26:23
+ls
+ls /home/velkerr/seminars/pd2018/06-counters
+cat /home/velkerr/seminars/pd2018/06-counters
+cat ~/home/velkerr/seminars/pd2018/06-counters
+exit
+// HDFS-shell CLI mipt-client.atp-fivt.org 1.2.0.RELEASE log closed at 2018-09-29 01:29:35

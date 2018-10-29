@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+len="&length=10"
+curl -i "http://mipt-master.atp-fivt.org:50070/webhdfs/v1$1?op=OPEN" | grep 'Location:' | awk '{print $2"&length=10"}'
+
